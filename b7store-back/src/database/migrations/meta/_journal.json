@@ -1,0 +1,69 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1765478794459,
+      "tag": "0000_uneven_clea",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1766150100043,
+      "tag": "0001_married_pestilence",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1766150266745,
+      "tag": "0002_short_shotgun",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1766687429813,
+      "tag": "0003_gifted_ares",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1766774443446,
+      "tag": "0004_fluffy_prowler",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1766774471302,
+      "tag": "0005_dry_red_skull",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1766774634123,
+      "tag": "0006_spotty_wilson_fisk",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1766943229426,
+      "tag": "0007_charming_shadow_king",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1766943345150,
+      "tag": "0008_cuddly_wendell_rand",
+      "breakpoints": true
+    }
+  ]
+}

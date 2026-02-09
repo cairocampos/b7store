@@ -1,0 +1,29 @@
+{
+	"name": "b7store-back",
+	"version": "1.0.50",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"db:generate": "bun --env-file .env --bun drizzle-kit generate",
+		"db:migrate": "bun --env-file .env --bun drizzle-kit migrate",
+		"db:seed": "bun --env-file .env --bun src/database/seeders/index.ts",
+		"dev": "bun run --watch src/main.ts",
+		"build": "bun build --compile --minify-whitespace --minify-syntax --target bun --outfile server src/main.ts"
+	},
+	"dependencies": {
+		"@elysiajs/cors": "^1.4.0",
+		"@elysiajs/openapi": "^1.4.11",
+		"@elysiajs/static": "^1.4.7",
+		"@faker-js/faker": "^10.1.0",
+		"better-auth": "^1.4.6",
+		"drizzle-orm": "^0.45.1",
+		"elysia": "latest",
+		"stripe": "^20.1.0",
+		"zod": "^4.1.13"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.3.8",
+		"bun-types": "latest",
+		"drizzle-kit": "^0.31.8"
+	},
+	"module": "src/index.js"
+}
